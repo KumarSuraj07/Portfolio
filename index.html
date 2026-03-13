@@ -781,8 +781,11 @@
   @media (max-width: 900px) {
     nav { padding: 20px 24px; }
     .nav-links { display: none; }
-    .hero { grid-template-columns: 1fr; padding: 0 24px; padding-top: 100px; }
-    .hero-right { display: none; }
+    .hero { grid-template-columns: 1fr; padding: 0 24px; padding-top: 100px; gap: 60px; }
+    .hero-right { justify-content: center; padding-top: 40px; }
+    .hero-image-frame { width: min(320px, 80vw); }
+    .hero-stats { left: 50%; transform: translateX(-50%); bottom: -24px; padding: 16px 24px; gap: 24px; }
+    .stat-num { font-size: 24px; }
     .about { grid-template-columns: 1fr; padding: 80px 24px; }
     .about-left { display: none; }
     .work { padding: 80px 24px; }
